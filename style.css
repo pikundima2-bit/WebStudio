@@ -1,0 +1,940 @@
+.body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.navone {
+display: flex;
+gap: 20px;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.header-logo {
+    font-family: Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 100px;
+    position: relative;
+    top: 20px;
+}
+
+.header-logo span {
+    color: #222222;
+}
+
+.header-logo {
+    color: blue;
+}
+
+.span-1 {
+    color: #2196F3;    
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 100px;
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+}
+
+.span-1::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background-color: #2196F3;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.span-1:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+.span-1:hover {
+    color: #2196F3;
+    transition: color 0.3s ease;
+}
+
+.span-2 {
+    font-size: 20px;
+    line-height: 1.5;
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.span-2::after {
+    content: "";
+    position: absolute;
+    width: 98px;
+    height: 4px;
+    background-color: #2196F3;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.span-2:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+.span-2:hover {
+    color: #2196F3;
+    transition: color 0.3s ease;
+}
+
+.span-3 {
+    font-size: 20px;
+    line-height: 1.5;
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.span-3::after {
+    content: "";
+    position: absolute;
+    width: 78px;
+    height: 4px;
+    background-color: #2196F3;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.span-3:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+.span-3:hover {
+    color: #2196F3;
+    transition: color 0.3s ease;
+}
+
+.span-4{
+    color: #2196F3;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 300px;
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+    
+}
+
+.span-4::after {
+    content: "";
+    position: absolute;
+    width: 186px;
+    height: 4px;
+    background-color: #2196F3;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.span-4:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+.span-4:hover {
+    color: #2196F3;
+    transition: color 0.3s ease;
+}
+
+.span-5 {
+    
+    font-size: 20px;
+    line-height: 1.5;
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.span-5::after {
+    content: "";
+    position: absolute;
+    width: 166px;
+    height: 4px;
+    background-color: #2196F3;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.span-5:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+.span-5:hover {
+    color: #2196F3;
+
+    transition: color 0.3s ease;
+}
+
+.envelope {
+    position: relative;
+    bottom: -26px;
+    right: 235px;
+    width: 20px;
+}
+
+.smartphone {
+    position: relative;
+    bottom: -24px;
+    right: 212px;
+    width: 14px;
+}
+
+.hero {
+    position: relative;
+    top: 20px;
+    padding: 100px;
+}
+
+.hero-img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-content h1 {
+    color: white;
+}
+
+.hero-content button {
+    padding: 10px 20px;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+
+    
+}
+
+.border {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 325px;
+    height: 120px;
+}
+
+.Vector-1 {
+    width: 10px;
+    position: absolute;
+    bottom: -237px;
+    right: 1274.60px;
+}
+
+.Vector-clock-1 {
+    position: absolute;
+    bottom: -193px;
+}
+
+.Vector-clock-2 {
+    position: absolute;
+    bottom: -218px;
+    right: 900px;
+}
+
+.Vector-clock-3 {
+    position: absolute;
+    bottom: -218px;
+    right: 956px;
+}
+
+.Vector-comp-1 {
+    position: absolute;
+    bottom: -227px;
+    right: 604px;;
+}
+
+.Vector-comp-2 {
+    position: absolute;
+    bottom: -227px;
+    right: 597px;
+}
+
+.Vector-comp-3 {
+    position: absolute;
+    bottom: -227px;
+    right: 578.50px;
+}
+
+.Vector-comp-4 {
+    position: absolute;
+    bottom: -227px;
+    right: 587px;
+}
+
+.Vector-astr-1 {
+    position: absolute;
+    bottom: -201px;
+    right: 228px;
+}
+
+.Vector-astr-2 {
+    position: absolute;
+    bottom: -206px;
+    right: 228px;
+}
+
+.Vector-astr-3 {
+    position: absolute;
+    bottom: -230px;
+    right: 241px;
+}
+
+.Vector-astr-4 {
+    position: absolute;
+    bottom: -201px;
+    right: 260px;
+}
+
+
+.Vector-astr-5 {
+    position: absolute;
+    bottom: -201px;
+    right: 266px;
+}
+
+.Vector-astr-6 {
+    position: absolute;
+    bottom: -199px;
+    right: 263px;
+}
+
+.Vector-astr-7 {
+    position: absolute;
+    bottom: -203px;
+    right: 263px;
+}
+
+.Vector-astr-8 {
+    position: absolute;
+    bottom: -240px;
+    right: 237px;
+}
+
+.Vector-astr-9 {
+    position: absolute;
+    bottom: -240px;
+    right: 232px;
+}
+
+.Vector-astr-10 {
+    position: absolute;
+    bottom: -242px;
+    right: 234.50px;
+}
+
+.Vector-astr-11 {
+    position: absolute;
+    bottom: -237.50px;
+    right: 234.50px;
+}
+
+.Vector-astr-12 {
+    position: absolute;
+    bottom: -243px;
+    right: 222px;
+}
+
+.Vector-astr-13 {
+    position: absolute;
+    bottom: -248px;
+    right: 222px;
+}
+
+.Vector-astr-14 {
+    position: absolute;
+    bottom: -245.50px;
+    right: 224px;
+}
+
+.Vector-astr-15 {
+    position: absolute;
+    bottom: -245.50px;
+    right: 219.10px;
+}
+
+.Vector-astr-16 {
+    position: absolute;
+    bottom: -232px;
+    right: 216px;
+}
+
+.Vector-astr-17 {
+    position: absolute;
+    bottom: -232px;
+    right: 211px;
+}
+
+.Vector-astr-18 {
+    position: absolute;
+    bottom: -234px;
+    right: 213.50px;
+}
+
+.Vector-astr-19 {
+    position: absolute;
+    bottom: -229.50px;
+    right: 213.50px;
+}
+
+.Vector-astr-20 {
+    position: absolute;
+    bottom: -203px;
+    right: 200px;
+}
+
+.detail {
+    flex: 1;
+    min-width: 0;
+}
+
+.detail h3 {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.detail p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.p1 {
+   
+   text-align: center;
+   font-size: 25px;
+    
+}
+
+.img-1 {
+    width: 370px;
+    height: 294px;
+}
+
+.img-2 {
+    width: 370px;
+    height: 294px;
+}
+
+.img-3 {
+    width: 370px;
+    height: 294px;
+}
+
+.nav1-f {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.p2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.team-header {
+    padding: 100px;
+}
+
+.Vector-team-1 {
+    position: relative;
+    bottom: -10px;
+    right: -10px;
+}
+
+.Vector-team-2 {
+    position: relative;
+    bottom: -5.70px;
+    right: 9px;
+}
+
+.Vector-team-3 {
+    position: relative;
+    bottom: 21.80px;
+    right: -24.90px;
+}
+
+.Vector-team-4 {
+    position: relative;
+    bottom: -13px;
+    right: -11px;
+}
+
+.Vector-team-5 {
+    position: relative;
+    bottom: -10px;
+    right: -15px;
+}
+
+.Vector-team-6 {
+    position: relative;
+    bottom: -12px;
+    right: -18px;
+}
+
+.Vector-team-7 {
+    position: relative;
+    bottom: -12px;
+    right: 5.50px;
+}
+
+.Vector-team-8 {
+    position: relative;
+    bottom: 3px;
+    right: 15px;
+}
+
+.Vector-team-9 {
+    position: relative;
+    bottom: -10.50px;
+    right: -8px;
+}
+
+.Vector-team-10 {
+    position: relative;
+    bottom: -6.50px;
+    right: 11px;
+}
+
+.Vector-team-11 {
+    position: relative;
+    bottom: 21.90px;
+    right: -6.20px;
+}
+
+.Vector-team-12 {
+    position: relative;
+    bottom: -13px;
+    right: -1px;
+}
+
+.Vector-team-13 {
+    position: relative;
+    bottom: -10px;
+    right: -0px;
+}
+
+.Vector-team-14 {
+    position: relative;
+    bottom: -13px;
+    right: -15px;
+}
+
+.Vector-team-15 {
+    position: relative;
+    bottom: -13.50px;
+    right: 10px;
+}
+
+.Vector-team-16 {
+    position: relative;
+    bottom: 3px;
+    right: 19.50px;
+}
+
+.Vector-team-17 {
+    position: relative;
+    bottom: -10.50px;
+    right: -8px;
+}
+
+.Vector-team-18 {
+    position: relative;
+    bottom: -6.10px;
+    right: 10.70px;
+}
+
+.Vector-team-19 {
+    position: relative;
+    bottom: 21.90px;
+    right: -6.80px;
+}
+
+.Vector-team-20 {
+    position: relative;
+    bottom: -13px;
+    right: 0px;
+}
+
+.Vector-team-21 {
+    position: relative;
+    bottom: -10px;
+    right: -0px;
+}
+
+.Vector-team-22 {
+    position: relative;
+    bottom: -14px;
+    right: -15px;
+}
+
+.Vector-team-23 {
+    position: relative;
+    bottom: -14px;
+    right: 10px;
+}
+
+.Vector-team-24 {
+    position: relative;
+    bottom: 1.50px;
+    right: 19.35px;
+}
+
+.Vector-team-25 {
+    position: relative;
+    bottom: 21.90px;
+    right: -7px;
+}
+
+.elipse-1 {
+    position: relative;
+    bottom: 13.50px;
+    left: 31.50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 2;
+    background-color: transparent;
+    transition: color 0.3s ease;
+    color: black;
+}
+
+.elipse-1:hover {
+    background-color: #2196F3;
+    color: #2196F3;
+    
+}
+
+.elipse-2 {
+    position: relative;
+    bottom: 55px;
+    left: 72px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 2;
+    background-color: transparent;
+    transition: color 0.3s ease;
+    color: black;
+}
+
+.elipse-2:hover {
+    background-color: #2196F3; 
+    color: #2196F3;
+    
+}
+
+.elipse-3 {
+    position: relative;
+    bottom: 94px;
+    left: 120px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 2;
+    background-color: transparent;
+    transition: color 0.3s ease;
+    color: black;
+}
+
+.elipse-3:hover {
+    background-color: #2196F3; 
+    color: #2196F3;
+    
+}
+
+.elipse-4 {
+    position: relative;
+    bottom: 133px;
+    left: 165px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 2;
+    background-color: transparent;
+    transition: color 0.3s ease;
+    color: black;
+}
+
+.elipse-4:hover {
+    background-color: #2196F3; 
+    color: #2196F3;
+    
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+}
+.team-head {
+    padding: 70px;
+}
+
+.team-1 {
+    background-color: whitesmoke;
+    padding: 50px;
+}
+
+.img-team-size {
+    width: 240px;
+    height: 260px;
+    
+}
+
+.team-img {
+    display: flex; 
+    flex-direction: column;  
+    background-color:white ;
+    border-radius: 8px;
+    width:  240px ;
+    height: 400px;
+    z-index: 1;
+   box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.team-t {
+    text-align: center;
+}
+
+.rc-logo {
+    text-align: center;
+    font-size: 30px;
+}
+
+.rc-cn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rc-border {
+    background-color: white;
+    width: 80%;
+    height: 300px;
+}
+
+.rc-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 170px;
+    height: 92px;
+    border:2px solid #b5b5b5;
+    border-radius: 5px;
+}
+
+.rc-img:hover {
+    border: 2px solid #2196F3;
+}
+
+.rc-img-df {
+    display: flex;
+    flex-direction: column;
+}
+
+.rc-df {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    background-color:  black;
+    color: white;
+    padding: 50px;
+    padding-left: 100px
+    
+}
+
+.footer-df {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-logo {
+    color: blue;
+}
+
+.footer-logo span {
+    color: white;
+}
+
+.street {
+    color: white;
+    text-decoration: none;
+}
+
+.gmail {
+    color: gray;
+    text-decoration: none;
+}
+
+.number {
+    color: gray;
+    text-decoration: none;
+}
+
+.elipse-footer-1 {
+    position: relative;
+    bottom: -45px;
+    left: 130px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 2;
+    background-color: rgba(47, 48, 58, 1);
+    transition: color 0.3s ease;
+    color: black;
+}
+
+.elipse-footer-1:hover {
+    background-color: #2196F3; 
+    color: #2196F3;
+}
+
+.elipse-footer-2 {
+    position: relative;
+    bottom: -6px;
+    left: 180px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 2;
+    background-color: rgba(47, 48, 58, 1);
+    transition: color 0.3s ease;
+    color: black;
+}
+
+.elipse-footer-2:hover {
+    background-color: #2196F3; 
+    color: #2196F3;
+}
+
+.elipse-footer-3 {
+    position: relative;
+    bottom: 32px;
+    left: 230px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 2;
+    background-color: rgba(47, 48, 58, 1);
+    transition: color 0.3s ease;
+    color: black;
+}
+
+.elipse-footer-3:hover {
+    background-color: #2196F3; 
+    color: #2196F3;
+}
+
+.elipse-footer-4 {
+    position: relative;
+    bottom: 70px;
+    left: 280px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 2;
+    background-color: rgba(47, 48, 58, 1);
+    transition: color 0.3s ease;
+    color: black;
+}
+
+.elipse-footer-4:hover {
+    background-color: #2196F3; 
+    color: #2196F3;
+}
+
+.footer-logo-2 {
+    position: relative;
+    bottom: -35px;
+    left: 130px;
+    font-size: 17px;
+}
+
+.f-img-1 {
+    position: relative;
+    bottom: -10.50px;
+    left: 10.50px;
+}   
+
+.f-img-2 {
+    position: relative;
+    bottom: -11.50px;
+    left: 10.50px;
+}
+
+.f-img-3 {
+    position: relative;
+    bottom: -10.50px;
+    left: 9.50px;
+}
+
+.f-img-4 {
+    position: relative;
+    bottom: -9.50px;
+    left: 9.50px;
+}
